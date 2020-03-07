@@ -1,0 +1,39 @@
+*
+{ 
+    font-family: Comfortaa;
+}
+
+h1, h3
+{
+    color:rgb(123, 27, 36);
+    text-align: center;
+}
+h1
+{
+    transition: transform .2s;
+    font-weight: bold;
+}
+h1:hover { transform: scale(1.05); }
+
+
+.LG_Red  { color:rgb(123, 27, 36); }
+.LG_Black { color:rgb(2, 5, 12); }
+
+.LG_Red_Background  { background-color:rgb(123, 27, 36); }
+.LG_Black_Background { background-color:rgb(2, 5, 12); }
+
+
+
+/* Zooms when hovering */
+.zoom { transition: transform .2s; }
+.zoom:hover { transform: scale(1.2); }
+
+.smallZoom { transition: transform .2s; }
+.smallZoom:hover { transform: scale(1.05); }
+
+
+.bold { font-weight: bold; }
+
+
+
+.btn { background-color:rgb(123, 27, 36); }
